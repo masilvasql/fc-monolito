@@ -1,0 +1,228 @@
+TN:
+SF:src\modules\@shared\domain\entities\base.entity.ts
+FN:15,get id
+FN:19,get createdAt
+FN:23,get updatedAt
+FN:27,set updatedAt
+FN:9,BaseEntity
+FNF:5
+FNH:4
+FNDA:1,get id
+FNDA:1,get createdAt
+FNDA:1,get updatedAt
+FNDA:0,set updatedAt
+FNDA:1,BaseEntity
+DA:1,1
+DA:2,1
+DA:3,1
+DA:4,1
+DA:5,1
+DA:6,1
+DA:7,1
+DA:8,1
+DA:9,1
+DA:10,1
+DA:11,1
+DA:12,1
+DA:13,1
+DA:14,1
+DA:15,1
+DA:16,1
+DA:17,1
+DA:18,1
+DA:19,1
+DA:20,1
+DA:21,1
+DA:22,1
+DA:23,1
+DA:24,1
+DA:25,1
+DA:26,1
+DA:27,1
+DA:28,0
+DA:29,0
+DA:30,1
+LF:30
+LH:28
+BRDA:15,0,0,1
+BRDA:19,1,0,1
+BRDA:23,2,0,1
+BRDA:9,3,0,1
+BRDA:10,4,0,0
+BRF:5
+BRH:4
+end_of_record
+TN:
+SF:src\modules\@shared\domain\value-object\id.value-object.ts
+FN:10,get id
+FN:6,Id
+FNF:2
+FNH:1
+FNDA:0,get id
+FNDA:1,Id
+DA:1,1
+DA:2,1
+DA:3,1
+DA:4,1
+DA:5,1
+DA:6,1
+DA:7,1
+DA:8,1
+DA:9,1
+DA:10,1
+DA:11,0
+DA:12,0
+DA:13,1
+LF:13
+LH:11
+BRDA:6,0,0,1
+BRF:1
+BRH:1
+end_of_record
+TN:
+SF:src\modules\product-adm\domain\product.entity.ts
+FN:31,get name
+FN:35,set name
+FN:39,get description
+FN:43,set description
+FN:47,get purchasePrice
+FN:51,set purchasePrice
+FN:55,get stock
+FN:59,set stock
+FN:23,Product
+FNF:9
+FNH:5
+FNDA:1,get name
+FNDA:0,set name
+FNDA:1,get description
+FNDA:0,set description
+FNDA:1,get purchasePrice
+FNDA:0,set purchasePrice
+FNDA:1,get stock
+FNDA:0,set stock
+FNDA:1,Product
+DA:1,1
+DA:2,1
+DA:3,1
+DA:4,1
+DA:5,1
+DA:6,1
+DA:7,1
+DA:8,1
+DA:9,1
+DA:10,1
+DA:11,1
+DA:12,1
+DA:13,1
+DA:14,1
+DA:15,1
+DA:16,1
+DA:17,1
+DA:18,1
+DA:19,1
+DA:20,1
+DA:21,1
+DA:22,1
+DA:23,1
+DA:24,1
+DA:25,1
+DA:26,1
+DA:27,1
+DA:28,1
+DA:29,1
+DA:30,1
+DA:31,1
+DA:32,1
+DA:33,1
+DA:34,1
+DA:35,1
+DA:36,0
+DA:37,0
+DA:38,1
+DA:39,1
+DA:40,1
+DA:41,1
+DA:42,1
+DA:43,1
+DA:44,0
+DA:45,0
+DA:46,1
+DA:47,1
+DA:48,1
+DA:49,1
+DA:50,1
+DA:51,1
+DA:52,0
+DA:53,0
+DA:54,1
+DA:55,1
+DA:56,1
+DA:57,1
+DA:58,1
+DA:59,1
+DA:60,0
+DA:61,0
+DA:62,1
+LF:62
+LH:54
+BRDA:31,0,0,1
+BRDA:39,1,0,1
+BRDA:47,2,0,1
+BRDA:55,3,0,1
+BRDA:23,4,0,1
+BRF:5
+BRH:5
+end_of_record
+TN:
+SF:src\modules\product-adm\usecase\add-product\add-product.usecase.ts
+FN:14,execute
+FN:10,AddProductUseCase
+FNF:2
+FNH:2
+FNDA:1,execute
+FNDA:1,AddProductUseCase
+DA:1,1
+DA:2,1
+DA:3,1
+DA:4,1
+DA:5,1
+DA:6,1
+DA:7,1
+DA:8,1
+DA:9,1
+DA:10,1
+DA:11,1
+DA:12,1
+DA:13,1
+DA:14,1
+DA:15,1
+DA:16,1
+DA:17,1
+DA:18,1
+DA:19,1
+DA:20,1
+DA:21,1
+DA:22,1
+DA:23,1
+DA:24,1
+DA:25,1
+DA:26,1
+DA:27,1
+DA:28,1
+DA:29,1
+DA:30,1
+DA:31,1
+DA:32,1
+DA:33,1
+DA:34,1
+DA:35,1
+DA:36,1
+DA:37,1
+DA:38,1
+LF:38
+LH:38
+BRDA:14,0,0,1
+BRDA:10,1,0,1
+BRF:2
+BRH:2
+end_of_record
