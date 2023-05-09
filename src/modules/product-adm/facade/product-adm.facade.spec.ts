@@ -2,7 +2,7 @@ import { Sequelize } from "sequelize-typescript";
 import  ProductModel  from "../repository/product.model";
 import ProductRepository from "../repository/product.repository";
 import AddProductUseCase from "../usecase/add-product/add-product.usecase";
-import ProducAdmFacade from "./product-adme.facade";
+import ProducAdmFacade from "./product-adm.facade";
 
 describe("ProductAdmFacade Test", () => {
     let sequelize: Sequelize;

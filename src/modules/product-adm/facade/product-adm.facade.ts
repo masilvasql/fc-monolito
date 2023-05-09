@@ -17,12 +17,13 @@ export default class ProducAdmFacade implements ProductAdmFacadeInterface{
         this._checkStockUsecase = usecasesProps.stockUsecase;
     }
 
-    addProduct(input: AddProductFacadeInputDto): Promise<void> {
+    async addProduct(input: AddProductFacadeInputDto): Promise<void> {
         //caso o dto do facade seja diferente do dto do usecase, aqui é feita a conversão
-        return this._addUsecase.execute(input);
+        return await this._addUsecase.execute(input);
     }
-    checkStock(input: CheckStockFacadeInputDto): Promise<CheckStockFacadeOutputDto> {
-        return this._checkStockUsecase.execute(input);
+    
+    async checkStock(input: CheckStockFacadeInputDto): Promise<CheckStockFacadeOutputDto> {
+        return await this._checkStockUsecase.execute(input);
     }
 
 }
