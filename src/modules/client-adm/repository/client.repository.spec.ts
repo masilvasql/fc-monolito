@@ -42,8 +42,8 @@ describe("ClientRepository Test", () => {
         expect(result.name).toEqual(client.name);
         expect(result.email).toEqual(client.email);
         expect(result.address).toEqual(client.address);
-        expect(result.createdAt).toEqual(client.createdAt);
-        expect(result.updatedAt).toEqual(client.updatedAt);
+        expect(result.createdAt).toStrictEqual(client.createdAt);
+        expect(result.updatedAt).toStrictEqual(client.updatedAt);
 
     })
 
@@ -65,8 +65,8 @@ describe("ClientRepository Test", () => {
         expect(clientDB.name).toEqual(client.name);
         expect(clientDB.email).toEqual(client.email);
         expect(clientDB.address).toEqual(client.address);
-        expect(clientDB.createdAt).toEqual(client.createdAt);
-        expect(clientDB.updatedAt).toEqual(client.updatedAt);
+        expect(clientDB.createdAt).toStrictEqual(client.createdAt);
+        expect(clientDB.updatedAt).toStrictEqual(client.updatedAt);
         
     
     })
