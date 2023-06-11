@@ -4,7 +4,7 @@ import Invoice from "../domain/invoice.entity";
 import Product from "../domain/product.entity";
 import InvoiceGateway from "../gateway/invoice.gateway";
 import { InvoiceProductModel } from "./invoice-product.model";
-import InvoiceModel from "./invoice.model";
+import {InvoiceModel} from "./invoice.model";
 
 
 

@@ -28,7 +28,15 @@ describe("Clien Adm Factory Test",  ()=>{
             id:"1",
             name:"Teste",
             email:"email",
-            address:"address"
+            address:"address",
+            city:"city",
+            complement:"complement",
+            document:"document",
+            number:"number",
+            state:"state",
+            street:"street",
+            zipCode:"zipCode"
+            
         }
 
         await factory.add(input)
@@ -56,7 +64,15 @@ describe("Clien Adm Factory Test",  ()=>{
             id:"1",
             name:"Teste",
             email:"email",
-            address:"address"
+            address:"address",
+            city:"city",
+            complement:"complement",
+            document:"document",
+            number:"number",
+            state:"state",
+            street:"street",
+            zipCode:"zipCode"
+
         }
 
         await factory.add(input)

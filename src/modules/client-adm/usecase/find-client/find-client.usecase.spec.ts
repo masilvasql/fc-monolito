@@ -6,7 +6,14 @@ const client = new Client({
     id: new Id("1234"),
     name: "name",
     email: "email",
-    address: "address"
+    address: "address",
+    document: "document",
+    street: "street",
+    number: "number",
+    complement: "complement",
+    city: "city",
+    state: "state",
+    zipCode: "zipCode",
 })
 
 const MockRepository = () => {

@@ -6,7 +6,7 @@ import InvoiceFacade from "./invoice-facade";
 import FindInvoiceUseCase from "../usecase/find-invoice/find-invoice.usecase";
 
 import { InvoiceProductModel } from "../repository/invoice-product.model";
-import InvoiceModel from "../repository/invoice.model";
+import {InvoiceModel} from "../repository/invoice.model";
 
 describe("InvoiceFacade Test ", () => {
     let sequileze: Sequelize;

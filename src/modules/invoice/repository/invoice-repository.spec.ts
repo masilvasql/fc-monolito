@@ -5,7 +5,7 @@ import Product from "../domain/product.entity";
 import Invoice from "../domain/invoice.entity";
 import InvoiceRepository from "./invoice-repository";
 import { InvoiceProductModel } from "./invoice-product.model";
-import InvoiceModel from "./invoice.model";
+import {InvoiceModel} from "./invoice.model";
 
 
 describe("Invoice repository test", () => {

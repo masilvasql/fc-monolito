@@ -28,7 +28,14 @@ export default class ClientAdmFacade implements ClientAdmFacadeInterface {
             id:result.id,
             createdAt:result.createdAt,
             name:result.name,
-            updatedAt:result.updatedAt
+            updatedAt:result.updatedAt,
+            document:result.document,
+            street:result.street,
+            number:result.number,
+            complement:result.complement,
+            city:result.city,
+            state:result.state,
+            zipCode:result.zipCode
         }
         return output
     }

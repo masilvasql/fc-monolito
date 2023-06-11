@@ -15,7 +15,15 @@ describe("AddClientUseCase Test", () => {
         const input ={
             name:"name",
             email:"email",
-            address:"address"
+            address:"address",
+            document:"document",
+            city:"city",
+            complement:"complement",
+            number:"number",
+            state:"state",
+            street:"street",
+            zipCode:"zipCode"
+
         }
 
         const output = await useCase.execute(input);
@@ -26,6 +34,14 @@ describe("AddClientUseCase Test", () => {
             name:"name",
             email:"email",
             address:"address",
+            document:"document",
+            city:"city",
+            complement:"complement",
+            number:"number",
+            state:"state",
+            street:"street",
+            zipCode:"zipCode",
+            
             createdAt:expect.any(Date),
             updatedAt:expect.any(Date)
         })

@@ -1,5 +1,5 @@
 import { Sequelize } from "sequelize-typescript"
-import ProductModel from "../repository/product.model"
+import {ProductModel} from "../repository/product.model"
 import ProductRepository from "../repository/product.repository";
 import FindProductByIdUseCase from "../usecase/find-product-by-id/find-product-by-id.usecase";
 import StoreCatalogFacade from "./store-catalog.facade";

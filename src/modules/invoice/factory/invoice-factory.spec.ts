@@ -3,7 +3,7 @@ import { Sequelize } from "sequelize-typescript";
 import { InvoiceProductModel } from "../repository/invoice-product.model";
 import { GenerateInvoiceFacadeInputDto } from "../facade/DTO/invoce-facade.dto";
 import InvoiceFactory from "./invoice-factory";
-import InvoiceModel from "../repository/invoice.model";
+import {InvoiceModel} from "../repository/invoice.model";
 
 
 describe("InvoiceFacade Test ", () => {
