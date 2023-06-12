@@ -41,7 +41,15 @@ describe("FindClientUseCase Test", () => {
             email: client.email,
             address: client.address,
             createdAt: client.createdAt,
-            updatedAt: client.updatedAt
+            updatedAt: client.updatedAt,
+            document: client.document,
+            street: client.street,
+            number: client.number,
+            complement: client.complement,
+            city: client.city,
+            state: client.state,
+            zipCode: client.zipCode
+            
         })
 
 

@@ -21,7 +21,7 @@ export default class GenerateInvoiceUseCase implements UseCaseInterface {
               return new Product({ id: item.id, name: item.name, price: item.price })
          })
         const invoice = new Invoice({ name: input.name, document: input.document, address: adders, items: products })
-
+     
         await this._invoiceInterface.generate(invoice)
 
         const output: GenerateInvoiceUseCaseOutputDto = {
@@ -44,6 +44,7 @@ export default class GenerateInvoiceUseCase implements UseCaseInterface {
             ),
             total: invoice.total,
         }
+   
         return output
     }
 }

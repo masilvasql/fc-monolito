@@ -18,7 +18,6 @@ invoiceRoutes.get("/:id", async (request: Request, response: Response) => {
 
     response.status(200).json(invoice);
   } catch (error) {
-    console.error(error);
     response.status(400).send(error);
   }
 });

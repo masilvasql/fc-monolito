@@ -5,7 +5,7 @@ import GenerateInvoiceUseCase from "../usecase/generate-invoice/generate-invoice
 import InvoiceFacade from "./invoice-facade";
 import FindInvoiceUseCase from "../usecase/find-invoice/find-invoice.usecase";
 
-import { InvoiceProductModel } from "../repository/invoice-product.model";
+import { InvoiceProductModel } from "../repository/invoice-product-model/invoice-product.model";
 import {InvoiceModel} from "../repository/invoice.model";
 
 describe("InvoiceFacade Test ", () => {

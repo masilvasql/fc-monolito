@@ -5,7 +5,7 @@ import {
     Table,
     HasMany
   }from "sequelize-typescript";
-import {InvoiceProductModel} from "./invoice-product.model";
+import {InvoiceProductModel} from "./invoice-product-model/invoice-product.model";
 @Table({
     tableName: "invoices",
     timestamps: false,

@@ -3,7 +3,7 @@ import Address from "../domain/Address.value-object";
 import Invoice from "../domain/invoice.entity";
 import Product from "../domain/product.entity";
 import InvoiceGateway from "../gateway/invoice.gateway";
-import { InvoiceProductModel } from "./invoice-product.model";
+import { InvoiceProductModel } from "./invoice-product-model/invoice-product.model";
 import {InvoiceModel} from "./invoice.model";
 
 
@@ -13,7 +13,7 @@ import {InvoiceModel} from "./invoice.model";
 export default class InvoiceRepository implements InvoiceGateway {
     async find(id: string): Promise<Invoice> {
         const output = await InvoiceModel.findOne({ where: { id: id }, include: [{model: InvoiceProductModel, as: 'invoice_products'}] })
-
+    
         const addres = new Address(output.street, output.number, output.complement, output.city, output.state, output.zipCode)
         const products = output.invoice_products.map(item => {
             return new Product({ id: item.id, name: item.name, price: item.price })

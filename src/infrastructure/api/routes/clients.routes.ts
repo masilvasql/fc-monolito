@@ -17,6 +17,7 @@ clientRoutes.post("/", async (req, res) => {
             state: req.body.state,
             zipCode: req.body.zipCode
         }
+
         const cliendAdmFactory = ClientAdmFacadeFacadeFactory.create()
         const output: any = await cliendAdmFactory.add(input)
         res.status(201).json(output)

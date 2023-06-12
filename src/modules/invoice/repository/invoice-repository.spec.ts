@@ -4,7 +4,7 @@ import Address from "../domain/Address.value-object";
 import Product from "../domain/product.entity";
 import Invoice from "../domain/invoice.entity";
 import InvoiceRepository from "./invoice-repository";
-import { InvoiceProductModel } from "./invoice-product.model";
+import { InvoiceProductModel } from "./invoice-product-model/invoice-product.model";
 import {InvoiceModel} from "./invoice.model";
 
 

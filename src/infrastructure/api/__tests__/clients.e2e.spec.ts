@@ -1,15 +1,16 @@
 import{app, sequelize} from "../express"
 import request from "supertest"
 describe("E2E test for Clients", () => {
+   
     beforeEach(async () => {
-        await sequelize.sync({force: true})
+        await sequelize.sync({ force: true }) //Force true drops all tables and recreates them
     })
 
-    afterEach(async () => {
-        await sequelize.close()
+    afterAll(async () => {
+        await sequelize.close() //Close connection to database
     })
-    
     it("should create a client", async () => {
+        
         const response = await request(app)
         .post("/clients")
         .send({
